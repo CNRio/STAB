@@ -1,7 +1,7 @@
 # Example for using build platform
 Add following line in IntelliJ `Run/Debug Configurations -> Program arguments`:
 ```
---profile=PrintProfile --property=content=HelloWorld
+--profile=stab.build.example.PrintProfile --property=content=Hello
 ```
 
 Then run `stab.build.BuildLauncher` as Main class.
