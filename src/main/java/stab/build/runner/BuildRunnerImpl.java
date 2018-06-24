@@ -22,6 +22,7 @@ public class BuildRunnerImpl implements BuildRunner {
         tasks.forEach(task -> {
             Exception exception = runTask(task, context);
         });
+
         return false;
     }
 

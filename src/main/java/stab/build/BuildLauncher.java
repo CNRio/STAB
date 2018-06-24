@@ -20,7 +20,8 @@ public class BuildLauncher {
 
     public static Options getOptions() {
         return OptUtil.opts(
-                OptUtil.required(PROFILE, true, "The set of tasks to run")
+                OptUtil.required(PROFILE, true, "The set of tasks to run"),
+                OptUtil.option(PROPERTY, true, "Pass a property to your profile")
         );
     }
 

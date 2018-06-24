@@ -1,5 +1,6 @@
 package stab.build.context;
 
+import lombok.Getter;
 import lombok.extern.log4j.Log4j;
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.lang.StringUtils;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 @Log4j
+@Getter
 public class BuildContextImpl implements BuildContext {
 
     private Configuration config;

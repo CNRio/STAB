@@ -1,5 +1,7 @@
 package stab.build.context;
 
+import org.apache.commons.configuration.Configuration;
+
 import java.io.File;
 
 /**
@@ -13,4 +15,6 @@ public interface BuildContext {
      * @return File handle.
      */
     public File getFile(String key);
+
+    public Configuration getConfig();
 }
